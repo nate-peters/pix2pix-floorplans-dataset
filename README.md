@@ -4,7 +4,7 @@
 
 This repository contains all of code necessary to retrain a pix2pix model on new image pairs, and export a checkpoint in a format that can be uploaded to RunwayML. I've also included the Rhino/Grasshopper workflow files that I used to export the original source images.
 
-This is a companion to the `pix2pix-runway` repo, which used the RunwayML SDK to serve the model inside of the Runway app.
+This is a companion to the [`pix2pix-runway`](https://github.com/nonoesp/pix2pix-runway) repo, which uses the RunwayML SDK to serve the model inside of the Runway app.
 
 ### About the data:
 
@@ -15,7 +15,7 @@ The dataset is derived from images of floor plans for small, single-story houses
 ### Organization of the `/dataset` directory:
 
 This directory contains the images that we'll use to train a pix2pix model.
-`./Source Images`: These are the source images that informed the room tags.  
+`Source Images`: These are the source images that informed the room tags.  
 `Original`: 
 - `/A`: The boundary shape of each floor plan represented as a solid black region
 - `/B`: The color tagged plans
